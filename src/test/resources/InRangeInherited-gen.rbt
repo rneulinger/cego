@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document name="RBT">
+      <RelationLogicIsCircular>False</RelationLogicIsCircular>
+      <Title>
+        <TitleString>Range</TitleString>
+        <Author>RBTg</Author>
+        <CreationDate></CreationDate>
+        <Revision></Revision>
+        <Comment></Comment>
+      </Title>
+      <Nodes>
+        <Node>
+      <Handle>1</Handle>
+      <Name>InRange inherited_hi</Name>
+      <TrueDescription>value InRange inherited is &gt; MAX</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>40</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>2</Handle>
+      <Name>InRange inherited_lo</Name>
+      <TrueDescription>value InRange inherited is &lt; MIN</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>80</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+        <Node>
+      <Handle>3</Handle>
+      <Name>InRange inherited is in</Name>
+      <TrueDescription>InRange inherited is valid</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>60</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+      </Nodes>
+      <Constraints>
+        <Constraint>
+      <Handle>4</Handle>
+      <cConstraintType>E</cConstraintType>
+      <Subject></Subject><cSubjectState>X</cSubjectState>
+      <X>20</X><Y>60</Y>
+      <States>
+        <Node>InRange inherited_hi</Node><State Handle="1">T</State><Node>InRange inherited_lo</Node><State Handle="2">T</State>
+      </States>
+    </Constraint>
+      </Constraints>
+      <Relations>
+        <Relation>
+      <EffectNode>InRange inherited is in</EffectNode>
+      <Handle>3</Handle>
+      <Effect>3</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>InRange inherited_hi</Node><State Handle="1">F</State><Node>InRange inherited_lo</Node><State Handle="2">F</State>
+      </States>
+    </Relation>
+      </Relations>
+      <Notes>
+        
+      </Notes>
+    </Document>

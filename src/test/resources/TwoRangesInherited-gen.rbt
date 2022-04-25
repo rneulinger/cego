@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document name="RBT">
+      <RelationLogicIsCircular>False</RelationLogicIsCircular>
+      <Title>
+        <TitleString>Two Ranges</TitleString>
+        <Author>RBTg</Author>
+        <CreationDate></CreationDate>
+        <Revision></Revision>
+        <Comment></Comment>
+      </Title>
+      <Nodes>
+        <Node>
+      <Handle>1</Handle>
+      <Name>TwoRanges inherited_A_hi</Name>
+      <TrueDescription>value TwoRanges inherited_A is &gt; MAX</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>40</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>2</Handle>
+      <Name>TwoRanges inherited_A_lo</Name>
+      <TrueDescription>value TwoRanges inherited_A is &lt; MIN</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>80</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>3</Handle>
+      <Name>TwoRanges inherited_B_hi</Name>
+      <TrueDescription>value TwoRanges inherited_B is &gt; MAX</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>160</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>4</Handle>
+      <Name>TwoRanges inherited_B_lo</Name>
+      <TrueDescription>value TwoRanges inherited_B is &lt; MIN</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>200</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>5</Handle>
+      <Name>TwoRanges inherited_∑_hi</Name>
+      <TrueDescription>value TwoRanges inherited_∑ is &gt; MAX</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>280</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>6</Handle>
+      <Name>TwoRanges inherited_∑_lo</Name>
+      <TrueDescription>value TwoRanges inherited_∑ is &lt; MIN</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>320</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>7</Handle>
+      <Name>TwoRanges inherited_A_max</Name>
+      <TrueDescription>signal TwoRanges inherited to high TwoRanges inherited</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>420</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node><Node>
+      <Handle>8</Handle>
+      <Name>TwoRanges inherited_A_null</Name>
+      <TrueDescription>signal TwoRanges inherited to low TwoRanges inherited</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>O</cObservability>
+      <X>220</X><Y>460</Y>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+        <Node>
+      <Handle>9</Handle>
+      <Name>TwoRanges inherited_A is in</Name>
+      <TrueDescription>TwoRanges inherited_A is valid</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>60</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node><Node>
+      <Handle>10</Handle>
+      <Name>TwoRanges inherited_B is in</Name>
+      <TrueDescription>TwoRanges inherited_B is valid</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>180</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node><Node>
+      <Handle>11</Handle>
+      <Name>TwoRanges inherited_∑ is in</Name>
+      <TrueDescription>TwoRanges inherited_∑ is valid</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>300</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node><Node>
+      <Handle>12</Handle>
+      <Name>TwoRanges inherited_ok</Name>
+      <TrueDescription>TwoRanges inherited signal is ok</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>620</X><Y>240</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node><Node>
+      <Handle>13</Handle>
+      <Name>TwoRanges inherited_scale</Name>
+      <TrueDescription>TwoRanges inherited active</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>440</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node><Node>
+      <Handle>14</Handle>
+      <Name>TwoRanges inherited_full</Name>
+      <TrueDescription>TwoRanges inherited full</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>400</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node><Node>
+      <Handle>15</Handle>
+      <Name>TwoRanges inherited_halt</Name>
+      <TrueDescription>TwoRanges inherited halt</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <UiType>None</UiType>
+      <cObservability>N</cObservability>
+      <X>420</X><Y>480</Y>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+      </Nodes>
+      <Constraints>
+        <Constraint>
+      <Handle>16</Handle>
+      <cConstraintType>E</cConstraintType>
+      <Subject></Subject><cSubjectState>X</cSubjectState>
+      <X>20</X><Y>60</Y>
+      <States>
+        <Node>TwoRanges inherited_A_hi</Node><State Handle="1">T</State><Node>TwoRanges inherited_A_lo</Node><State Handle="2">T</State>
+      </States>
+    </Constraint><Constraint>
+      <Handle>17</Handle>
+      <cConstraintType>E</cConstraintType>
+      <Subject></Subject><cSubjectState>X</cSubjectState>
+      <X>20</X><Y>180</Y>
+      <States>
+        <Node>TwoRanges inherited_B_hi</Node><State Handle="3">T</State><Node>TwoRanges inherited_B_lo</Node><State Handle="4">T</State>
+      </States>
+    </Constraint><Constraint>
+      <Handle>18</Handle>
+      <cConstraintType>E</cConstraintType>
+      <Subject></Subject><cSubjectState>X</cSubjectState>
+      <X>20</X><Y>300</Y>
+      <States>
+        <Node>TwoRanges inherited_∑_hi</Node><State Handle="5">T</State><Node>TwoRanges inherited_∑_lo</Node><State Handle="6">T</State>
+      </States>
+    </Constraint><Constraint>
+      <Handle>19</Handle>
+      <cConstraintType>E</cConstraintType>
+      <Subject></Subject><cSubjectState>X</cSubjectState>
+      <X>20</X><Y>440</Y>
+      <States>
+        <Node>TwoRanges inherited_A_max</Node><State Handle="7">T</State><Node>TwoRanges inherited_A_null</Node><State Handle="8">T</State>
+      </States>
+    </Constraint><Constraint>
+      <Handle>20</Handle>
+      <cConstraintType>M</cConstraintType>
+      <SubjectNode>TwoRanges inherited_ok</SubjectNode><Subject>12</Subject><cSubjectState>F</cSubjectState>
+      <X>620</X><Y>440</Y>
+      <States>
+        <Node>TwoRanges inherited_scale</Node><State Handle="13">T</State><Node>TwoRanges inherited_full</Node><State Handle="14">T</State><Node>TwoRanges inherited_halt</Node><State Handle="15">T</State>
+      </States>
+    </Constraint>
+      </Constraints>
+      <Relations>
+        <Relation>
+      <EffectNode>TwoRanges inherited_A is in</EffectNode>
+      <Handle>9</Handle>
+      <Effect>9</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_A_hi</Node><State Handle="1">F</State><Node>TwoRanges inherited_A_lo</Node><State Handle="2">F</State>
+      </States>
+    </Relation><Relation>
+      <EffectNode>TwoRanges inherited_B is in</EffectNode>
+      <Handle>10</Handle>
+      <Effect>10</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_B_hi</Node><State Handle="3">F</State><Node>TwoRanges inherited_B_lo</Node><State Handle="4">F</State>
+      </States>
+    </Relation><Relation>
+      <EffectNode>TwoRanges inherited_∑ is in</EffectNode>
+      <Handle>11</Handle>
+      <Effect>11</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_∑_hi</Node><State Handle="5">F</State><Node>TwoRanges inherited_∑_lo</Node><State Handle="6">F</State>
+      </States>
+    </Relation><Relation>
+      <EffectNode>TwoRanges inherited_ok</EffectNode>
+      <Handle>12</Handle>
+      <Effect>12</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_A is in</Node><State Handle="9">T</State><Node>TwoRanges inherited_B is in</Node><State Handle="10">T</State><Node>TwoRanges inherited_∑ is in</Node><State Handle="11">T</State>
+      </States>
+    </Relation><Relation>
+      <EffectNode>TwoRanges inherited_scale</EffectNode>
+      <Handle>13</Handle>
+      <Effect>13</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_A_max</Node><State Handle="7">F</State><Node>TwoRanges inherited_A_null</Node><State Handle="8">F</State>
+      </States>
+    </Relation><Relation>
+      <EffectNode>TwoRanges inherited_full</EffectNode>
+      <Handle>14</Handle>
+      <Effect>14</Effect>
+      <cOperator>$</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_A_max</Node><State Handle="7">T</State>
+      </States>
+    </Relation><Relation>
+      <EffectNode>TwoRanges inherited_halt</EffectNode>
+      <Handle>15</Handle>
+      <Effect>15</Effect>
+      <cOperator>$</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>TwoRanges inherited_A_null</Node><State Handle="8">T</State>
+      </States>
+    </Relation>
+      </Relations>
+      <Notes>
+        
+      </Notes>
+    </Document>

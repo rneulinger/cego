@@ -1,0 +1,80 @@
+import rbe.*
+object `17:29:27.843736700` extends rbe.NCEG(){
+	val half:CSE = add( CSE("half is true"))
+	val N1:CSE = add( CSE("N1"))
+	val N2:CSE = add( CSE("N2"))
+	val N3:CSE = add( CSE("N3"))
+	val N4:CSE = add( CSE("N4"))
+	val N5:CSE = add( CSE("N5"))
+	val N6:CSE = add( CSE("N6"))
+	val N7:CSE = add( CSE("N7"))
+	val N8:CSE = add( CSE("N8"))
+	val N9:CSE = add( CSE("N9"))
+	val full:CSE = add( CSE("full is true","full is false"))
+	val Long_node_name_but_below_32:CSE = add( CSE("""A multiline desciption
+for the True state""","""And a long one for the false state
+also with many lines"""))
+	val Node254291:CSE = add( CSE("Node254291"))
+	val XOR_Expr:XOR = add( XOR( half, full ))
+	val NAND_Expr:NAND = add( NAND( half, full ))
+	val NOR_Expr:NOR = add( NOR( half, full ))
+	val XNOR_Expr:NXOR = add( NXOR( half, N6, full ))
+	val SE:EQ = add( EQ(half))
+	
+	val AND_high:AND = add( AND( N5, N7, ~NAND_Expr ))
+	
+	val And_Expr:AND = add( AND( ~half, full ))
+	val Or_Expr:OR = add( OR( half, full ))
+	val EXCL_1:EXCL = add( EXCL( ~half, full ))
+	
+	val INCL_1:INCL = add( INCL( ~N1, N2 ))
+	
+	val ONE_1:ONE = add( ONE( ~N3, N4 ))
+	val ANCHOR_1:ANCHOR = add( ANCHOR(N5))
+	
+	val MASK_1:MASK = add( MASK( ~N6, N7 ))
+	
+	val REQ_1:REQ = add( REQ( N8, ~N9 ))
+	val NOTE_1:NOTE = add( NOTE("""this is a note 
+with many lines""",  SE, full, INCL_1 ))
+	// ------------- effects
+	// XNOR Expr
+	// SE
+	// XOR Expr
+	// Or Expr
+	// And Expr
+	// NOR Expr
+	// AND high
+
+	// xy -----
+	setXY(XNOR_Expr, 380, 380)
+	setXY(REQ_1, 40, 40)
+	setXY(ONE_1, 40, 40)
+	setXY(N2, 140, 140)
+	setXY(Long_node_name_but_below_32, 140, 140)
+	setXY(AND_high, 860, 860)
+	setXY(N4, 140, 140)
+	setXY(full, 140, 140)
+	setXY(And_Expr, 400, 400)
+	setXY(NOTE_1, 900, 900)
+	setXY(N5, 140, 140)
+	setXY(N9, 140, 140)
+	setXY(N3, 140, 140)
+	setXY(Or_Expr, 400, 400)
+	setXY(N8, 140, 140)
+	setXY(N7, 140, 140)
+	setXY(MASK_1, 40, 40)
+	setXY(ANCHOR_1, 40, 40)
+	setXY(Node254291, 400, 400)
+	setXY(NAND_Expr, 380, 380)
+	setXY(NOR_Expr, 380, 380)
+	setXY(SE, 400, 400)
+	setXY(N1, 140, 140)
+	setXY(INCL_1, 20, 20)
+	setXY(half, 140, 140)
+	setXY(N6, 140, 140)
+	setXY(XOR_Expr, 380, 380)
+	setXY(EXCL_1, 40, 40)
+
+}
+val g = `17:29:27.843736700`

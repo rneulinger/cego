@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document name="RBT">
+  <DataFileVersion>498</DataFileVersion>
+  <FileName>C:\Users\Robert\dev\ceg\src\test\resources\mini.rbt</FileName>
+  <GUID>53c147b9-59c0-42c7-a10b-08ba549610aa</GUID>
+  <LimitTimes>True</LimitTimes>
+  <TimeLimitSeconds>5</TimeLimitSeconds>
+  <OptimalSkipTime>0</OptimalSkipTime>
+  <CustomerName></CustomerName>
+  <PlatformID></PlatformID>
+  <SerialNum></SerialNum>
+  <PrivilegeCode></PrivilegeCode>
+  <DatabaseIsModified>False</DatabaseIsModified>
+  <DataIsValid>True</DataIsValid>
+  <LastSaved>22 February 2022 @ 4:11</LastSaved>
+  <LastSavedRawTimeLow>1645499501</LastSavedRawTimeLow>
+  <LastSavedRawTimeHigh>0</LastSavedRawTimeHigh>
+  <OldNewBoth>O</OldNewBoth>
+  <LastReturnCode>Warning</LastReturnCode>
+  <RelationLogicIsCircular>False</RelationLogicIsCircular>
+  <Title>
+    <TitleString>mini</TitleString>
+    <Author>Author's name goes here.</Author>
+    <CreationDate></CreationDate>
+    <Revision>Revision can be alpha numeric e.g. 12.3a</Revision>
+    <Comment>/* Updated by RBTg (.net) Dienstag, 22. Februar 2022 */</Comment>
+  </Title>
+  <Nodes>
+    <Node>
+      <Handle>174241</Handle>
+      <Name>A</Name>
+      <TrueDescription>A is true</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>95e20fe2-311f-4065-8902-dc350a4f2607</TrueStepID>
+      <FalseStepID>950e3f6f-86ea-4d48-a92c-a8fe8859f6eb</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>0</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>100</X>
+      <Y>80</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+    <Node>
+      <Handle>59119</Handle>
+      <Name>B</Name>
+      <TrueDescription>B is true</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>51e6f74a-7600-498a-8b77-ad6356118f4b</TrueStepID>
+      <FalseStepID>d5a93cce-484e-4a05-af0c-bc4ec501f458</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>1</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>100</X>
+      <Y>180</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+    <Node>
+      <Handle>90017</Handle>
+      <Name>C</Name>
+      <TrueDescription></TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>76aa4bd3-7fca-4a4b-90be-a853adb2d65f</TrueStepID>
+      <FalseStepID>6b19df39-3fc0-46df-a188-4ff7d469e34b</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>2</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>360</X>
+      <Y>80</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+    <Node>
+      <Handle>149603</Handle>
+      <Name>D</Name>
+      <TrueDescription></TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>23b84411-7f2e-4e13-b6cf-2da2cd9930e4</TrueStepID>
+      <FalseStepID>c6864a5b-96e7-4355-835d-aa85b1690143</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>3</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>360</X>
+      <Y>180</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+    <Suffix>41</Suffix>
+    <PrimaryCauseCount>2</PrimaryCauseCount>
+    <PrimaryEffectCount>2</PrimaryEffectCount>
+    <BottomRow>0</BottomRow>
+    <RightColumn>0</RightColumn>
+    <LeftMargin>100</LeftMargin>
+    <ColumnWidth>150</ColumnWidth>
+    <TopMargin>50</TopMargin>
+    <RowHeight>25</RowHeight>
+  </Nodes>
+  <Constraints></Constraints>
+  <Relations>
+    <Relation>
+      <EffectNode>C</EffectNode>
+      <Handle>90017</Handle>
+      <Effect>90017</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>A</Node>
+        <State Handle="174241">T</State>
+        <Node>B</Node>
+        <State Handle="59119">F</State>
+      </States>
+    </Relation>
+    <Relation>
+      <EffectNode>D</EffectNode>
+      <Handle>149603</Handle>
+      <Effect>149603</Effect>
+      <cOperator>$</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>B</Node>
+        <State Handle="59119">T</State>
+      </States>
+    </Relation>
+  </Relations>
+  <Notes></Notes>
+  <Variations>
+    <Variation>
+      <Handle>2799750209</Handle>
+      <EffectNode>C</EffectNode>
+      <Effect>90017</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>A</Node>
+        <State Handle="174241">T</State>
+        <Node>B</Node>
+        <State Handle="59119">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>59119</Index>
+        <Index>174241</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>90017</Handle>
+      <EffectNode>C</EffectNode>
+      <Effect>90017</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>A</Node>
+        <State Handle="174241">F</State>
+        <Node>B</Node>
+        <State Handle="59119">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>174241</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>3277919919</Handle>
+      <EffectNode>C</EffectNode>
+      <Effect>90017</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>A</Node>
+        <State Handle="174241">T</State>
+        <Node>B</Node>
+        <State Handle="59119">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>59119</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>254445165</Handle>
+      <EffectNode>D</EffectNode>
+      <Effect>149603</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>$</cOperator>
+      <States>
+        <Node>B</Node>
+        <State Handle="59119">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>59119</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>149603</Handle>
+      <EffectNode>D</EffectNode>
+      <Effect>149603</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>$</cOperator>
+      <States>
+        <Node>B</Node>
+        <State Handle="59119">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>59119</Index>
+      </PropagatingNodes>
+    </Variation>
+  </Variations>
+  <NewTestRun>
+    <Variations>
+      <FeasibleVariationCount>5</FeasibleVariationCount>
+      <InfeasibleVariationCount>0</InfeasibleVariationCount>
+      <UntestableVariationCount>0</UntestableVariationCount>
+      <TestableVariationCount>5</TestableVariationCount>
+      <NotTestedVariationCount>5</NotTestedVariationCount>
+      <TimedOutVariationCount>0</TimedOutVariationCount>
+      <TestedVariationCount>5</TestedVariationCount>
+      <Variation>
+        <Handle>2799750209</Handle>
+        <EffectNode>C</EffectNode>
+        <Effect>90017</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>90017</Handle>
+        <EffectNode>C</EffectNode>
+        <Effect>90017</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>3277919919</Handle>
+        <EffectNode>C</EffectNode>
+        <Effect>90017</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>254445165</Handle>
+        <EffectNode>D</EffectNode>
+        <Effect>149603</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>149603</Handle>
+        <EffectNode>D</EffectNode>
+        <Effect>149603</Effect>
+        <CoverageCount>2</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+    </Variations>
+    <Tests>
+      <TestSetID>26e284a5-4186-4e64-8ad7-5481c9506f05</TestSetID>
+      <BaseTestName>TEST#</BaseTestName>
+      <OldTestCount>3</OldTestCount>
+      <Test>
+        <Handle>40879</Handle>
+        <TestGUID>1963b533-dbb1-4cfc-a0f2-a5af565bd71b</TestGUID>
+        <Name>TEST#1</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>1</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>A</Node>
+          <State Handle="174241">F</State>
+          <Node>B</Node>
+          <State Handle="59119">F</State>
+          <Node>C</Node>
+          <State Handle="90017">F</State>
+          <Node>D</Node>
+          <State Handle="149603">F</State>
+        </States>
+        <CoveredVariations Count="2">
+          <Index>90017</Index>
+          <Index>149603</Index>
+        </CoveredVariations>
+      </Test>
+      <Test>
+        <Handle>47221</Handle>
+        <TestGUID>34229c62-c011-4cda-9b9a-cb8f50a3df79</TestGUID>
+        <Name>TEST#2</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>2</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>A</Node>
+          <State Handle="174241">T</State>
+          <Node>B</Node>
+          <State Handle="59119">T</State>
+          <Node>C</Node>
+          <State Handle="90017">F</State>
+          <Node>D</Node>
+          <State Handle="149603">T</State>
+        </States>
+        <CoveredVariations Count="2">
+          <Index>3277919919</Index>
+          <Index>254445165</Index>
+        </CoveredVariations>
+      </Test>
+      <Test>
+        <Handle>42359</Handle>
+        <TestGUID>bb3c3ee6-b758-4994-bb4f-c27cd6be63c0</TestGUID>
+        <Name>TEST#3</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>1</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>A</Node>
+          <State Handle="174241">T</State>
+          <Node>B</Node>
+          <State Handle="59119">F</State>
+          <Node>C</Node>
+          <State Handle="90017">T</State>
+          <Node>D</Node>
+          <State Handle="149603">F</State>
+        </States>
+        <CoveredVariations Count="2">
+          <Index>2799750209</Index>
+          <Index>149603</Index>
+        </CoveredVariations>
+      </Test>
+    </Tests>
+    <RelationMessages></RelationMessages>
+  </NewTestRun>
+  <ProgressIndicator>
+    <ElapsedTime>0</ElapsedTime>
+    <PrevVars>5</PrevVars>
+    <PrevPaths>5</PrevPaths>
+    <PrevTests>3</PrevTests>
+    <PrevVarsTime>0</PrevVarsTime>
+    <PrevPathsTime>0</PrevPathsTime>
+    <PrevTestsTime>0</PrevTestsTime>
+    <PrevTotalTime>0</PrevTotalTime>
+    <Phase>F</Phase>
+    <VarCovPct>100</VarCovPct>
+  </ProgressIndicator>
+  <CurrentRunSummary>
+    <LastRun>22 February 2022 @ 4:12</LastRun>
+    <LastRunRawTimeLow>1645499525</LastRunRawTimeLow>
+    <LastRunRawTimeHigh>0</LastRunRawTimeHigh>
+    <ReleaseNumber>8.00.0499</ReleaseNumber>
+    <TotalElapsedTime>00:00:01</TotalElapsedTime>
+    <Force_AllFobs>False</Force_AllFobs>
+    <VariationCount>5</VariationCount>
+    <PathCount>5</PathCount>
+    <TestCount>3</TestCount>
+    <InfeasibleVariationCount>0</InfeasibleVariationCount>
+    <UntestableVariationCount>0</UntestableVariationCount>
+    <NotTestedVariationCount>5</NotTestedVariationCount>
+    <TimedOutVariationCount>0</TimedOutVariationCount>
+    <CoveredVariationCount>5</CoveredVariationCount>
+  </CurrentRunSummary>
+  <PreviousRunSummary>
+    <LastRun>22 February 2022 @ 4:06</LastRun>
+    <LastRunRawTimeLow>1645499182</LastRunRawTimeLow>
+    <LastRunRawTimeHigh>0</LastRunRawTimeHigh>
+    <ReleaseNumber>8.00.0499</ReleaseNumber>
+    <TotalElapsedTime>00:00:01</TotalElapsedTime>
+    <Force_AllFobs>False</Force_AllFobs>
+    <VariationCount>5</VariationCount>
+    <PathCount>5</PathCount>
+    <TestCount>3</TestCount>
+    <InfeasibleVariationCount>0</InfeasibleVariationCount>
+    <UntestableVariationCount>0</UntestableVariationCount>
+    <NotTestedVariationCount>5</NotTestedVariationCount>
+    <TimedOutVariationCount>0</TimedOutVariationCount>
+    <CoveredVariationCount>4294967295</CoveredVariationCount>
+  </PreviousRunSummary>
+  <OldTestFiles>
+    <OldTestFile>C:\Users\Robert\dev\ceg\src\test\resources\mini.bxt</OldTestFile>
+  </OldTestFiles>
+  <GraphMessages Count="8">
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: A</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: B</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: C</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: D</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: A</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: B</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: C</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: D</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+  </GraphMessages>
+</Document>

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document name="RBT">
+  <DataFileVersion>498</DataFileVersion>
+  <FileName>C:\Users\deanrajovic\Documents\BenderRBT\Canada_University_Gratuation.rbt</FileName>
+  <GUID>c6e3cb31-f7bd-42c8-90c5-6e02e5d6a33c</GUID>
+  <LimitTimes>True</LimitTimes>
+  <TimeLimitSeconds>60</TimeLimitSeconds>
+  <OptimalSkipTime>0</OptimalSkipTime>
+  <CustomerName></CustomerName>
+  <PlatformID></PlatformID>
+  <SerialNum></SerialNum>
+  <PrivilegeCode></PrivilegeCode>
+  <DatabaseIsModified>False</DatabaseIsModified>
+  <DataIsValid>True</DataIsValid>
+  <LastSaved>31 March 2022 @ 0:17</LastSaved>
+  <LastSavedRawTimeLow>1648678647</LastSavedRawTimeLow>
+  <LastSavedRawTimeHigh>0</LastSavedRawTimeHigh>
+  <OldNewBoth>N</OldNewBoth>
+  <LastReturnCode>Warning</LastReturnCode>
+  <RelationLogicIsCircular>False</RelationLogicIsCircular>
+  <Title>
+    <TitleString>Canada University Gratuation</TitleString>
+    <Author>RBTg</Author>
+    <CreationDate></CreationDate>
+    <Revision>Revision can be alpha numeric e.g. 12.3a</Revision>
+    <Comment>/* Updated by RBTg (.net) 10. April 2022 */</Comment>
+  </Title>
+  <Nodes>
+    <Node>
+      <Handle>49727</Handle>
+      <Name>Ottawa</Name>
+      <TrueDescription>Student is enrolled at university of Ottawa</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>c4adf61f-91d1-4df3-b04e-13cfb64b2794</TrueStepID>
+      <FalseStepID>9f3694d6-db1c-441e-9828-597399dd9b46</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>1</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>101</X>
+      <Y>68</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+    <Node>
+      <Handle>107671</Handle>
+      <Name>Quebec-Hull</Name>
+      <TrueDescription>Student is enrolled at university of Quebec in Hull</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>620a7cf4-7667-4a66-9baf-efaa2aa1ef65</TrueStepID>
+      <FalseStepID>e8dd175e-50cd-4316-923f-c1023212d4f4</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>2</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>97</X>
+      <Y>129</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+    <Node>
+      <Handle>182653</Handle>
+      <Name>Carleton</Name>
+      <TrueDescription>Student is enrolled at university of Carleton</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>488e88d8-05f0-4d70-8f68-303d3b3c27be</TrueStepID>
+      <FalseStepID>04c75949-674c-4570-bcd2-1f6f41076f9b</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>3</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>101</X>
+      <Y>193</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+    <Node>
+      <Handle>77849</Handle>
+      <Name>A+InMath</Name>
+      <TrueDescription>Student obtains A+ in Mathematics</TrueDescription>
+      <FalseDescription>Student obtains less than A+ in Mathematics</FalseDescription>
+      <TrueStepID>f4da855d-576f-4393-a312-acc1fdffe5eb</TrueStepID>
+      <FalseStepID>c14850be-4a31-4da4-8476-c6bb4c302da4</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>4</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>93</X>
+      <Y>274</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Cause</sNodeType>
+    </Node>
+    <Node>
+      <Handle>189691</Handle>
+      <Name>10</Name>
+      <TrueDescription></TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>fb97d782-a51c-4832-bb92-13d7ab782631</TrueStepID>
+      <FalseStepID>2c47375b-0fd7-4fc9-a811-678d3609b4be</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>5</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>330</X>
+      <Y>68</Y>
+      <cObservability>N</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Explicit Intermediate</sNodeType>
+    </Node>
+    <Node>
+      <Handle>269461</Handle>
+      <Name>Skating</Name>
+      <TrueDescription>Student may take the skating course in winter</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>65d81a60-4c0b-4a15-9608-f18ce045dfd7</TrueStepID>
+      <FalseStepID>c44e586b-37e7-4caf-bf18-64d36e53b647</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>6</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>558</X>
+      <Y>68</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+    <Node>
+      <Handle>264283</Handle>
+      <Name>Skiing</Name>
+      <TrueDescription>Student may take the skiing course in winter</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>e6defd97-958c-499e-943d-f184e1533638</TrueStepID>
+      <FalseStepID>0a2c07b8-1382-4adc-af8f-d43e0f80e3ad</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>7</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>550</X>
+      <Y>190</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+    <Node>
+      <Handle>70177</Handle>
+      <Name>Skate polishing</Name>
+      <TrueDescription>Student has to take skate polishing course in winter</TrueDescription>
+      <FalseDescription>/b</FalseDescription>
+      <TrueStepID>b24adba7-9d55-43ac-819e-f011566510ec</TrueStepID>
+      <FalseStepID>5a29362f-c866-43a7-95bd-aed61e154970</FalseStepID>
+      <UiType>None</UiType>
+      <SequenceNumber>8</SequenceNumber>
+      <Column>-1</Column>
+      <Row>-1</Row>
+      <X>495</X>
+      <Y>269</Y>
+      <cObservability>O</cObservability>
+      <IsNew>False</IsNew>
+      <EngineNodeNum>0</EngineNodeNum>
+      <sNodeType>Primary Effect</sNodeType>
+    </Node>
+    <Suffix>67</Suffix>
+    <PrimaryCauseCount>4</PrimaryCauseCount>
+    <PrimaryEffectCount>3</PrimaryEffectCount>
+    <BottomRow>0</BottomRow>
+    <RightColumn>0</RightColumn>
+    <LeftMargin>100</LeftMargin>
+    <ColumnWidth>150</ColumnWidth>
+    <TopMargin>50</TopMargin>
+    <RowHeight>25</RowHeight>
+  </Nodes>
+  <Constraints>
+    <Constraint>
+      <Handle>134581</Handle>
+      <cConstraintType>E</cConstraintType>
+      <Subject>0</Subject>
+      <cSubjectState>X</cSubjectState>
+      <X>17</X>
+      <Y>129</Y>
+      <States>
+        <Node>Ottawa</Node>
+        <State Handle="49727">T</State>
+        <Node>Quebec-Hull</Node>
+        <State Handle="107671">T</State>
+        <Node>Carleton</Node>
+        <State Handle="182653">T</State>
+      </States>
+    </Constraint>
+  </Constraints>
+  <Relations>
+    <Relation>
+      <EffectNode>10</EffectNode>
+      <Handle>189691</Handle>
+      <Effect>189691</Effect>
+      <cOperator>|</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>Ottawa</Node>
+        <State Handle="49727">T</State>
+        <Node>Quebec-Hull</Node>
+        <State Handle="107671">T</State>
+      </States>
+    </Relation>
+    <Relation>
+      <EffectNode>Skating</EffectNode>
+      <Handle>269461</Handle>
+      <Effect>269461</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+        <Node>10</Node>
+        <State Handle="189691">T</State>
+      </States>
+    </Relation>
+    <Relation>
+      <EffectNode>Skiing</EffectNode>
+      <Handle>264283</Handle>
+      <Effect>264283</Effect>
+      <cOperator>&amp;</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>Carleton</Node>
+        <State Handle="182653">T</State>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+      </States>
+    </Relation>
+    <Relation>
+      <EffectNode>Skate polishing</EffectNode>
+      <Handle>70177</Handle>
+      <Effect>70177</Effect>
+      <cOperator>$</cOperator>
+      <cActiveOrPassive>A</cActiveOrPassive>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">F</State>
+      </States>
+    </Relation>
+  </Relations>
+  <Notes></Notes>
+  <Variations>
+    <Variation>
+      <Handle>189691</Handle>
+      <EffectNode>10</EffectNode>
+      <Effect>189691</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>|</cOperator>
+      <States>
+        <Node>Ottawa</Node>
+        <State Handle="49727">F</State>
+        <Node>Quebec-Hull</Node>
+        <State Handle="107671">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>49727</Index>
+        <Index>107671</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>842829765</Handle>
+      <EffectNode>10</EffectNode>
+      <Effect>189691</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>|</cOperator>
+      <States>
+        <Node>Ottawa</Node>
+        <State Handle="49727">T</State>
+        <Node>Quebec-Hull</Node>
+        <State Handle="107671">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>49727</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>3244350477</Handle>
+      <EffectNode>10</EffectNode>
+      <Effect>189691</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>|</cOperator>
+      <States>
+        <Node>Ottawa</Node>
+        <State Handle="49727">F</State>
+        <Node>Quebec-Hull</Node>
+        <State Handle="107671">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>107671</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>2202238015</Handle>
+      <EffectNode>Skating</EffectNode>
+      <Effect>269461</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+        <Node>10</Node>
+        <State Handle="189691">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>77849</Index>
+        <Index>189691</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>3869686295</Handle>
+      <EffectNode>Skating</EffectNode>
+      <Effect>269461</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">F</State>
+        <Node>10</Node>
+        <State Handle="189691">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>77849</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>3797400205</Handle>
+      <EffectNode>Skating</EffectNode>
+      <Effect>269461</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+        <Node>10</Node>
+        <State Handle="189691">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>189691</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>198576599</Handle>
+      <EffectNode>Skiing</EffectNode>
+      <Effect>264283</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>Carleton</Node>
+        <State Handle="182653">T</State>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>77849</Index>
+        <Index>182653</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>3394298083</Handle>
+      <EffectNode>Skiing</EffectNode>
+      <Effect>264283</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>Carleton</Node>
+        <State Handle="182653">F</State>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>182653</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>1027442543</Handle>
+      <EffectNode>Skiing</EffectNode>
+      <Effect>264283</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>&amp;</cOperator>
+      <States>
+        <Node>Carleton</Node>
+        <State Handle="182653">T</State>
+        <Node>A+InMath</Node>
+        <State Handle="77849">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>77849</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>70177</Handle>
+      <EffectNode>Skate polishing</EffectNode>
+      <Effect>70177</Effect>
+      <cEffectState>T</cEffectState>
+      <cOperator>$</cOperator>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">F</State>
+      </States>
+      <PropagatingNodes>
+        <Index>77849</Index>
+      </PropagatingNodes>
+    </Variation>
+    <Variation>
+      <Handle>1168241977</Handle>
+      <EffectNode>Skate polishing</EffectNode>
+      <Effect>70177</Effect>
+      <cEffectState>F</cEffectState>
+      <cOperator>$</cOperator>
+      <States>
+        <Node>A+InMath</Node>
+        <State Handle="77849">T</State>
+      </States>
+      <PropagatingNodes>
+        <Index>77849</Index>
+      </PropagatingNodes>
+    </Variation>
+  </Variations>
+  <NewTestRun>
+    <Variations>
+      <FeasibleVariationCount>11</FeasibleVariationCount>
+      <InfeasibleVariationCount>0</InfeasibleVariationCount>
+      <UntestableVariationCount>0</UntestableVariationCount>
+      <TestableVariationCount>11</TestableVariationCount>
+      <NotTestedVariationCount>11</NotTestedVariationCount>
+      <TimedOutVariationCount>0</TimedOutVariationCount>
+      <TestedVariationCount>11</TestedVariationCount>
+      <Variation>
+        <Handle>189691</Handle>
+        <EffectNode>10</EffectNode>
+        <Effect>189691</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>842829765</Handle>
+        <EffectNode>10</EffectNode>
+        <Effect>189691</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>3244350477</Handle>
+        <EffectNode>10</EffectNode>
+        <Effect>189691</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>2202238015</Handle>
+        <EffectNode>Skating</EffectNode>
+        <Effect>269461</Effect>
+        <CoverageCount>2</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>3869686295</Handle>
+        <EffectNode>Skating</EffectNode>
+        <Effect>269461</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>3797400205</Handle>
+        <EffectNode>Skating</EffectNode>
+        <Effect>269461</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>198576599</Handle>
+        <EffectNode>Skiing</EffectNode>
+        <Effect>264283</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>3394298083</Handle>
+        <EffectNode>Skiing</EffectNode>
+        <Effect>264283</Effect>
+        <CoverageCount>2</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>1027442543</Handle>
+        <EffectNode>Skiing</EffectNode>
+        <Effect>264283</Effect>
+        <CoverageCount>1</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>70177</Handle>
+        <EffectNode>Skate polishing</EffectNode>
+        <Effect>70177</Effect>
+        <CoverageCount>2</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+      <Variation>
+        <Handle>1168241977</Handle>
+        <EffectNode>Skate polishing</EffectNode>
+        <Effect>70177</Effect>
+        <CoverageCount>3</CoverageCount>
+        <Reason>-1</Reason>
+        <Feasibility>F</Feasibility>
+        <IsInUse>True</IsInUse>
+      </Variation>
+    </Variations>
+    <Tests>
+      <TestSetID>4ba86abb-fe8d-4f9c-8437-b1050c01f7d5</TestSetID>
+      <BaseTestName>TEST#</BaseTestName>
+      <OldTestCount>5</OldTestCount>
+      <Test>
+        <Handle>248867</Handle>
+        <TestGUID>cd6b2579-21c0-492e-ac98-5b4a4b0dbdf2</TestGUID>
+        <Name>TEST#1</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>1</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>Ottawa</Node>
+          <State Handle="49727">F</State>
+          <Node>Quebec-Hull</Node>
+          <State Handle="107671">F</State>
+          <Node>Carleton</Node>
+          <State Handle="182653">T</State>
+          <Node>A+InMath</Node>
+          <State Handle="77849">F</State>
+          <Node>10</Node>
+          <State Handle="189691">F</State>
+          <Node>Skating</Node>
+          <State Handle="269461">F</State>
+          <Node>Skiing</Node>
+          <State Handle="264283">F</State>
+          <Node>Skate polishing</Node>
+          <State Handle="70177">T</State>
+        </States>
+        <CoveredVariations Count="2">
+          <Index>70177</Index>
+          <Index>1027442543</Index>
+        </CoveredVariations>
+      </Test>
+      <Test>
+        <Handle>247799</Handle>
+        <TestGUID>4c499683-83a6-4c85-8f2f-274dd1557bc8</TestGUID>
+        <Name>TEST#2</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>3</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>Ottawa</Node>
+          <State Handle="49727">F</State>
+          <Node>Quebec-Hull</Node>
+          <State Handle="107671">F</State>
+          <Node>Carleton</Node>
+          <State Handle="182653">T</State>
+          <Node>A+InMath</Node>
+          <State Handle="77849">T</State>
+          <Node>10</Node>
+          <State Handle="189691">F</State>
+          <Node>Skating</Node>
+          <State Handle="269461">F</State>
+          <Node>Skiing</Node>
+          <State Handle="264283">T</State>
+          <Node>Skate polishing</Node>
+          <State Handle="70177">F</State>
+        </States>
+        <CoveredVariations Count="4">
+          <Index>189691</Index>
+          <Index>1168241977</Index>
+          <Index>3797400205</Index>
+          <Index>198576599</Index>
+        </CoveredVariations>
+      </Test>
+      <Test>
+        <Handle>37483</Handle>
+        <TestGUID>33d75d88-424e-47cd-bc22-43014ec034e0</TestGUID>
+        <Name>TEST#3</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>1</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>Ottawa</Node>
+          <State Handle="49727">F</State>
+          <Node>Quebec-Hull</Node>
+          <State Handle="107671">T</State>
+          <Node>Carleton</Node>
+          <State Handle="182653">F</State>
+          <Node>A+InMath</Node>
+          <State Handle="77849">T</State>
+          <Node>10</Node>
+          <State Handle="189691">T</State>
+          <Node>Skating</Node>
+          <State Handle="269461">T</State>
+          <Node>Skiing</Node>
+          <State Handle="264283">F</State>
+          <Node>Skate polishing</Node>
+          <State Handle="70177">F</State>
+        </States>
+        <CoveredVariations Count="4">
+          <Index>3244350477</Index>
+          <Index>1168241977</Index>
+          <Index>2202238015</Index>
+          <Index>3394298083</Index>
+        </CoveredVariations>
+      </Test>
+      <Test>
+        <Handle>89891</Handle>
+        <TestGUID>a83b5cb5-af0c-4454-bca8-010dfac24ed9</TestGUID>
+        <Name>TEST#4</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>1</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>Ottawa</Node>
+          <State Handle="49727">T</State>
+          <Node>Quebec-Hull</Node>
+          <State Handle="107671">F</State>
+          <Node>Carleton</Node>
+          <State Handle="182653">F</State>
+          <Node>A+InMath</Node>
+          <State Handle="77849">T</State>
+          <Node>10</Node>
+          <State Handle="189691">T</State>
+          <Node>Skating</Node>
+          <State Handle="269461">T</State>
+          <Node>Skiing</Node>
+          <State Handle="264283">F</State>
+          <Node>Skate polishing</Node>
+          <State Handle="70177">F</State>
+        </States>
+        <CoveredVariations Count="4">
+          <Index>842829765</Index>
+          <Index>1168241977</Index>
+          <Index>2202238015</Index>
+          <Index>3394298083</Index>
+        </CoveredVariations>
+      </Test>
+      <Test>
+        <Handle>99041</Handle>
+        <TestGUID>345e906c-ed56-426c-a079-5db336564bd9</TestGUID>
+        <Name>TEST#5</Name>
+        <Old>False</Old>
+        <Manual>False</Manual>
+        <UniquelyCoveredVariationCount>1</UniquelyCoveredVariationCount>
+        <TestIsValid>True</TestIsValid>
+        <Passed>False</Passed>
+        <States>
+          <Node>Ottawa</Node>
+          <State Handle="49727">t</State>
+          <Node>Quebec-Hull</Node>
+          <State Handle="107671">f</State>
+          <Node>Carleton</Node>
+          <State Handle="182653">f</State>
+          <Node>A+InMath</Node>
+          <State Handle="77849">F</State>
+          <Node>10</Node>
+          <State Handle="189691">T</State>
+          <Node>Skating</Node>
+          <State Handle="269461">F</State>
+          <Node>Skiing</Node>
+          <State Handle="264283">F</State>
+          <Node>Skate polishing</Node>
+          <State Handle="70177">T</State>
+        </States>
+        <CoveredVariations Count="2">
+          <Index>70177</Index>
+          <Index>3869686295</Index>
+        </CoveredVariations>
+      </Test>
+    </Tests>
+    <RelationMessages></RelationMessages>
+  </NewTestRun>
+  <ProgressIndicator>
+    <ElapsedTime>0</ElapsedTime>
+    <PrevVars>11</PrevVars>
+    <PrevPaths>9</PrevPaths>
+    <PrevTests>5</PrevTests>
+    <PrevVarsTime>0</PrevVarsTime>
+    <PrevPathsTime>0</PrevPathsTime>
+    <PrevTestsTime>0</PrevTestsTime>
+    <PrevTotalTime>0</PrevTotalTime>
+    <Phase>F</Phase>
+    <VarCovPct>100</VarCovPct>
+  </ProgressIndicator>
+  <CurrentRunSummary>
+    <LastRun>10 April 2022 @ 15:47</LastRun>
+    <LastRunRawTimeLow>1649598450</LastRunRawTimeLow>
+    <LastRunRawTimeHigh>0</LastRunRawTimeHigh>
+    <ReleaseNumber>8.00.0499</ReleaseNumber>
+    <TotalElapsedTime>00:00:01</TotalElapsedTime>
+    <Force_AllFobs>False</Force_AllFobs>
+    <VariationCount>11</VariationCount>
+    <PathCount>9</PathCount>
+    <TestCount>5</TestCount>
+    <InfeasibleVariationCount>0</InfeasibleVariationCount>
+    <UntestableVariationCount>0</UntestableVariationCount>
+    <NotTestedVariationCount>11</NotTestedVariationCount>
+    <TimedOutVariationCount>0</TimedOutVariationCount>
+    <CoveredVariationCount>11</CoveredVariationCount>
+  </CurrentRunSummary>
+  <PreviousRunSummary>
+    <LastRun>31 March 2022 @ 0:17</LastRun>
+    <LastRunRawTimeLow>1648678649</LastRunRawTimeLow>
+    <LastRunRawTimeHigh>0</LastRunRawTimeHigh>
+    <ReleaseNumber>8.00.0499</ReleaseNumber>
+    <TotalElapsedTime>00:00:01</TotalElapsedTime>
+    <Force_AllFobs>False</Force_AllFobs>
+    <VariationCount>11</VariationCount>
+    <PathCount>9</PathCount>
+    <TestCount>5</TestCount>
+    <InfeasibleVariationCount>0</InfeasibleVariationCount>
+    <UntestableVariationCount>0</UntestableVariationCount>
+    <NotTestedVariationCount>11</NotTestedVariationCount>
+    <TimedOutVariationCount>0</TimedOutVariationCount>
+    <CoveredVariationCount>4294967295</CoveredVariationCount>
+  </PreviousRunSummary>
+  <GraphMessages Count="10">
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: Carleton</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: Ottawa</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: Quebec-Hull</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: Skate polishing</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: Skating</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W21--False-state suppressed on OBServable node: Skiing</MessageString>
+      <sCode>MSG_W21</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: 10</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: Skate polishing</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: Skating</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+    <Message>
+      <MessageString>W22--False-state suppressed on un-Constrained node: Skiing</MessageString>
+      <sCode>MSG_W22</sCode>
+      <LineNumber>0</LineNumber>
+      <Subgraph>0</Subgraph>
+      <Type>WARNING</Type>
+    </Message>
+  </GraphMessages>
+</Document>

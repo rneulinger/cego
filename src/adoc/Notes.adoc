@@ -1,0 +1,11 @@
+magic number generated initially by rbt
+*4294967295*
+....
+....
+
+
+* https://graphviz.org/doc/info/colors.html[colors graphviz]
+* https://cloford.com/resources/charcodes/utf-8_mathematical.htm[math symbols utf8]
+* https://mermaid-js.github.io/mermaid/#/[mermaid
+
+https://jdk.java.net/archive/[open jdk archive]
