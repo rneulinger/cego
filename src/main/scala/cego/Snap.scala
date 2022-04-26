@@ -1,9 +1,5 @@
 package cego
 
-import jdk.incubator.vector.VectorOperators.Unary
-
-
-
 /**
  *
  * @param dict            map each node to a unique name
