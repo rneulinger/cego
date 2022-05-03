@@ -12,6 +12,14 @@ object Inf:
 
   def apply(name: String = "", truthy: String = "", style: Style = Muted): Inf = new Inf(name, Pred(truthy, style))
 
+type Desc = String|(String, String)|Inf
+
+def toInf(x:Desc):Inf = x match{
+  case x: String => Inf(x,x)
+  case x: (String,String) => Inf(x._1, x._2)
+  case x: Inf => x
+}
+
 val Ano = Inf()
 
 def valid(short: String, full: String): Inf = Inf(s"$short valid", s"\"$full\" = 1 (valid)", s"\"$full\" = 0 (invalid)")

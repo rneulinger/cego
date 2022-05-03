@@ -5,14 +5,6 @@ import scala.jdk.CollectionConverters.*
 
 def mkUUID:String = java.util.UUID.randomUUID.toString.filterNot(_ == '-')
 
-enum RelOp(val desc:Pred):
-  case GT extends RelOp(Pred(">", "<="))
-  case GE extends RelOp(Pred(">=", "<"))
-  case EQ extends RelOp(Pred("==", "!="))
-  case NE extends RelOp(Pred("!=", "=="))
-  case LE extends RelOp(Pred("<=", ">"))
-  case LT extends RelOp(Pred("<", ">="))
-
 case class Pos(x: Int, y: Int):
   def this(x: String, y: String) = this(x.toInt, y.toInt)
 
@@ -160,13 +152,6 @@ extension (str: String)
 
 trait Grid:
   def rel(dx: Int, dy: Int) = ???
-
-type Desc = String|(String, String)|Inf
-def toInf(x:Desc):Inf = x match{
-  case x: String => Inf(x,x)
-  case x: (String,String) => Inf(x._1, x._2)
-  case x: Inf => x
-}
 
 /**
  * ensure at least two different nodes

@@ -5,7 +5,7 @@ import cego.erpelX.ToErpel
 import scala.annotation.nowarn
 import cego.rbtX.*
 import cego.erpelX.*
-import cego.graphvizX.*
+import cego.graphX.*
 import cego.scalaX.*
 
 class ExportTest extends RBTSpec {
@@ -26,7 +26,6 @@ class ExportTest extends RBTSpec {
     InRangeInherited.mkErpel
     TwoRangesInherited.mkErpel
   }
-
 
   it should "combine" in {
     TwoRangesInherited.writeRbt(s"$TARGET/TwoRangesInherited-gen.rbt")

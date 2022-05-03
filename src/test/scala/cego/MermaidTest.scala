@@ -1,8 +1,8 @@
 package cego
 
 import cego.rbtX.{ToRbt, FromRbt}
+import cego.graphX.ToMermaid
 import cego.scalaX.*
-import cego.mermaidX.*
 
 class MermaidTest extends RBTSpec:
 
@@ -11,7 +11,7 @@ class MermaidTest extends RBTSpec:
     val snap = imp.snap
     ToRbt(snap).toXML
     val xml = ToRbt(snap).toXmlString
-    xml.writeTo( s"$TARGET/Mermaid.rbt" )
+    xml.writeTo(s"$TARGET/Mermaid.rbt")
     Root.restore(snap)
     val code = ToScala(snap).toString
     code.writeTo(s"$TARGET/Mermaid.txt")

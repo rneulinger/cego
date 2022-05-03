@@ -1,7 +1,7 @@
 package cego.rbtX
 
 import cego.*
-import cego.graphvizX.*
+import cego.graphX.*
 
 import java.io.*
 import scala.language.postfixOps

@@ -431,3 +431,11 @@ object NOTE:
     val trimmed = text.trim
     if trimmed.isEmpty then throw IllegalArgumentException("Note is empty")
     new NOTE(trimmed, ensureNoDuplicates(args))
+
+enum RelOp(val desc:Pred):
+  case GT extends RelOp(Pred(">", "<="))
+  case GE extends RelOp(Pred(">=", "<"))
+  case EQ extends RelOp(Pred("==", "!="))
+  case NE extends RelOp(Pred("!=", "=="))
+  case LE extends RelOp(Pred("<=", ">"))
+  case LT extends RelOp(Pred("<", ">="))
